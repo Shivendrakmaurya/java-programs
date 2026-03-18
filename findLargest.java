@@ -23,6 +23,6 @@ public class findLargest {
         } else {
             System.out.println("Largest number is: " + c);
         }
-        input.close();
+        input.close(); // Close the scanner to prevent resource leaks
     }
 }
